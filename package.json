@@ -2,7 +2,7 @@
   "name": "readme-example",
   "description": "Pipe a code example into a readme template",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "bin": "./bin/cmd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
