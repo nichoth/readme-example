@@ -5,7 +5,7 @@ Pipe a code example into a readme template
 
 ## install
 
-    $ npm install readme-example
+    $ npm install -g readme-example
 
 
 ## example
@@ -25,4 +25,19 @@ _readmeTmpl.md:
 
 On the command line:
 
-    $ cat example/code.js | readme-example > readme.md
+    $ cat example/code.js | readme-example _readmeTmpl.md > readme.md
+
+
+Results in `readme.md`:
+
+    # my module
+
+    ## example
+
+    ```js
+    console.log('example');
+
+    ```
+
+
+
