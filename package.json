@@ -1,0 +1,22 @@
+{
+  "name": "readme-example",
+  "description": "Pipe a code example into a readme template",
+  "main": "index.js",
+  "version": "0.0.0",
+  "bin": "./bin/cmd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Thomas <nichoth@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/undefined/readme-example.git"
+  },
+  "license": "ISC",
+  "peerDependencies": {},
+  "devDependencies": {},
+  "dependencies": {
+    "concat-stream": "^1.5.1",
+    "lodash.template": "^3.6.2"
+  }
+}
