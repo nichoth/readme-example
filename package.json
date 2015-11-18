@@ -1,6 +1,14 @@
 {
   "name": "readme-example",
   "description": "Pipe a code example into a readme template",
+  "keywords": [
+    "readme",
+    "example",
+    "template",
+    "cli",
+    "command line",
+    "command"
+  ],
   "main": "index.js",
   "version": "0.0.2",
   "bin": "./bin/cmd.js",
