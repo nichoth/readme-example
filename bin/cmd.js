@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var readmeTmpl = require('../');
 var concat = require('concat-stream');
 var fs = require('fs');
